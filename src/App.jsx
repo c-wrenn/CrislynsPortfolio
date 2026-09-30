@@ -41,7 +41,16 @@ function App() {
               <button>Social Network API</button>
               </Link>
             </section>
-               <Footer />
+
+            <section>
+  <h2>Skills</h2>
+
+  <img
+    src="https://skillicons.dev/icons?i=html,css,js,github,react,nodejs,mongodb,bootstrap,aws,figma,gitlab,heroku,graphql,linux,vscode,ubuntu,jquery"
+    alt="HTML, CSS, JavaScript, React, Node.js, and MongoDB"
+  />
+            </section>
+<Footer />
           </main>
         }
       />

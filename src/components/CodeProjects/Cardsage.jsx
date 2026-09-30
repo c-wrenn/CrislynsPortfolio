@@ -3,8 +3,19 @@ import './Cardsage.css';
 
 function Cardsage() {
     return (
+
         <section>
-            <p>fnrkesn</p>
+            <a
+  href="https://github.com/c-wrenn/cardsage"
+  target="_blank"
+  rel="noreferrer"
+>
+  <img
+    src="https://skillicons.dev/icons?i=github"
+    alt="GitHub"
+  />
+</a>
+            <p>click here to view on github: </p>
         </section>
     )
 }
