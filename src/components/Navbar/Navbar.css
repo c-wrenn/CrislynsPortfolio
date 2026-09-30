@@ -1,0 +1,33 @@
+h2 {
+font-size: 4rem;
+/* font: Brush Script MT ; */
+color: Green;
+padding: 2.5rem;
+}
+
+.navbar {
+    border: solid, black;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+}
+
+.nav-links {
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: green;
+    padding: 20px 30px;
+    border: 1px transparent;
+}
+
+.nav-links a:hover {
+    filter: brightness(85%);
+    background: linear-gradient(to top, transparent, #B8FFB8)
+}
