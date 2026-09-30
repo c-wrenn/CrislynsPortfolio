@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem 2rem;
+  margin-top: 4rem;
+  border-top: 1px solid #8b2020;
+  background-color: #f8f8f8;
+}
+
+.footer p {
+  margin: 0;
+
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: pink;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #646cff;
+}

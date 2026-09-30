@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import { Link, Routes, Route } from "react-router-dom";
 
 // import link routes
@@ -19,7 +20,7 @@ function App() {
             <Navbar />
 
             <header>
-              <h1>Crislyn's Portfolio</h1>
+              <h1>My Portfolio</h1>
               <p>Created to display all my talents</p>
             </header>
 
@@ -40,6 +41,7 @@ function App() {
               <button>Social Network API</button>
               </Link>
             </section>
+               <Footer />
           </main>
         }
       />
